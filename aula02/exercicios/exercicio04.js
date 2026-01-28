@@ -1,0 +1,7 @@
+const leia = require("readline-sync")
+let numero1 = leia.questionFloat('Digite o primeiro numero:')
+let numero2 = leia.questionFloat('Digite o segundo numero :')
+let numero3 = leia.questionFloat('Digite o terceiro numero:')
+let numero4 = leia.questionFloat('Digite o quarto numero:')
+let calculo = (numero1*numero2) - (numero3*numero4)
+console.log(calculo)
